@@ -1,0 +1,181 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=02ef2f9c5b7cb9c08c1050293289e8f3
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Temperature
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RPM
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=13;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"75f8507b7b6c55257ce4840dd37010c3","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"20b907119f4e7f05790b6e01183c97a7","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":21}
+  - Name: EditModel
+    Id: g=92f5a9ee0388b799cba16f760f882dad
+    Type: BaseObjectType
+    Children:
+    - Name: Temperature
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: RPM
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+- Name: Recipe_2
+  Id: g=127af37420c09a4f94a580bce4e12a99
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: P1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: P2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: P3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: P4
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+  - Class: Reference
+    Target: ns=13;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"20b907119f4e7f05790b6e01183c97a7","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":21}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"dbc8ced96a5117de909edba6a87ae729","Namespace":32}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=7caddb27254adbb3566589a6ffe456fe
+    Type: BaseObjectType
+    Children:
+    - Name: P1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: P2
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: P3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: P4
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0

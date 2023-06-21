@@ -1,0 +1,37 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: TempConverter
+  Id: g=c12a0f267f910939660307794d04251f
+  Supertype: EUConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+  - Name: RawMin
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 4000.0
+  - Name: RawMax
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 20000.0
+  - Name: ScaledMin
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 0.0
+  - Name: ScaledMax
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 200.0

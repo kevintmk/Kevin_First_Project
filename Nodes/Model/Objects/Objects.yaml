@@ -1,0 +1,87 @@
+Name: Objects
+Type: FolderType
+Children:
+- Name: Person1
+  Type: Person
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor_1"
+  - Name: Address
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: email
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Person2
+  Id: g=dc9aeae090a99154dcb1e1c9607ff1dd
+  Type: Person
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor_2"
+  - Name: Address
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: email
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: MotorID
+  Type: BaseDataVariableType
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: Person3
+  Type: Person
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor_3"
+  - Name: Address
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: email
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Person4
+  Type: Person
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Motor_4"
+  - Name: Address
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: email
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: PersonID
+  Id: g=78e6a1702f293e23764bfc6c8a96e745
+  Type: BaseDataVariableType
+  DataType: NodeId
+  Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: Motor1
+  Id: g=75f8507b7b6c55257ce4840dd37010c3
+  Type: BaseObjectType
+  Children:
+  - Name: Temperature
+    Id: g=133c7938d82493f2da14b5a70d0b2e94
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: RPM
+    Id: g=fd5cabf6f613358a0df635c30c1e2d08
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

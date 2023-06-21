@@ -1,0 +1,19 @@
+Name: ObjectType
+Type: FolderType
+Children:
+- Name: Person
+  Id: g=ffdec075820eb4453eaee816e1330428
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Address
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: email
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

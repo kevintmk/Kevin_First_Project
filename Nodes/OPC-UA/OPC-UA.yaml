@@ -1,0 +1,87 @@
+Name: 'OPC-UA'
+Type: OPCUACategoryFolder
+Children:
+- Name: OPCUAServer
+  Type: OPCUAServer
+  Children:
+  - Name: EndpointURL
+    Type: PropertyType
+    DataType: ResourceUri
+    Value: "opc.tcp://localhost:59100"
+  - Name: NodesToPublish
+    Type: BaseObjectType
+    Children:
+    - Name: Configuration1
+      Type: NodesToPublishConfigurationEntry
+      Children:
+      - Name: Nodes
+        Type: BaseObjectType
+        Children:
+        - Name: Node1
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"c1af02e41339d832d9613f7cd533f80f","Namespace":32}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+        - Name: Node2
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"dbc8ced96a5117de909edba6a87ae729","Namespace":32}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+        - Name: Node3
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"c9787378b071c0b1780eedcd8b06e104","Namespace":32}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 2
+      - Name: Users
+        Type: BaseObjectType
+        Children:
+        - Name: User1
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"77a1209ea7d2933cf4fa2710b1765e45","Namespace":32}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":14,"Namespace":1}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            Value: 0
+      - Name: PublishDynamicConfiguration
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+  - Name: MinimumMessageSecurityMode
+    Type: PropertyType
+    DataType: ns=33;MessageSecurityModeEnum
+    Value: 0
+  - Name: MinimumSecurityPolicy
+    Type: PropertyType
+    DataType: ns=33;SecurityPolicyEnum
+    Value: 0
+- File: OPCUAClient1/OPCUAClient1.yaml

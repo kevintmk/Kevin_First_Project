@@ -1,0 +1,50 @@
+Name: Users
+Id: g=d32870f567db9eb432da7d46bd20d37d
+Type: UsersCategoryFolder
+Children:
+- Name: op1
+  Id: g=77a1209ea7d2933cf4fa2710b1765e45
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=0f87613330fec91f0c707b36f770a363
+  - Name: Domain
+    Id: g=1dee9e561b8edd8448ce52e35b3bc116
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    Value: ""
+- Name: eng2
+  Id: g=445abc637d752dcd43818ea31b33da3d
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=ecb211cbb0766b080109e7cc83589c81
+  - Name: Language
+    Id: g=147168ae7e25289d4bd1c30757a5ff38
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: op2
+  Id: g=28a32ff3ee2dc9a9aa84cf95b5d5540b
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=0f87613330fec91f0c707b36f770a363
+  - Name: Language
+    Id: g=14cdb0ac77d14955d0dc062cb6b019ce
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "zh-TW"
+- Name: eng1
+  Id: g=49aaf9470b5569ea2f720e1b166ca71f
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=ecb211cbb0766b080109e7cc83589c81

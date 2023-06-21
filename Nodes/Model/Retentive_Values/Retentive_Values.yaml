@@ -1,0 +1,9 @@
+Name: Retentive_Values
+Id: g=4da3b8072653493157e65e9b0a8eb455
+Type: FolderType
+Children:
+- Name: Retentive_Var
+  Id: g=f8db9f91eae6fc6071318e60508b4d35
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

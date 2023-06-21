@@ -1,0 +1,426 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Type: TagStructure
+  Children:
+  - Name: Recipe_1
+    Id: g=dbc8ced96a5117de909edba6a87ae729
+    Type: Recipe_Test
+    Children:
+    - Name: P1
+      Id: g=ba0290b5c74e6ed066f8d1ac7f28a4a8
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=7f797d0631b74490b7df83b40234d38a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Recipe_1.P1"
+    - Name: P2
+      Id: g=58934100ac9d2bcef9276da342d6be32
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=9dd546bcba9d765bd8d8daacc15f000e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Recipe_1.P2"
+    - Name: P3
+      Id: g=c0960e1deb3782a735eb31a38fdee46b
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=bcde5186b9900ca9bd25ae972efd2792
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Recipe_1.P3"
+    - Name: P4
+      Id: g=3b5129dded07e2963809c1df4a6b5948
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Id: g=9784f88ef7fbf252d64b7c35e982569d
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Recipe_1.P4"
+  - Name: Motor
+    Id: g=c1af02e41339d832d9613f7cd533f80f
+    Type: TagStructureArray
+    Children:
+    - Name: 0
+      Id: g=e7d940c1012423a2779eee8cedd7c89e
+      Type: Motor_CTR
+      Children:
+      - Name: Current
+        Id: g=df4b10227d1165e353a368bc8ffe0ba4
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=2ae8b01272b264cadcaa88aa2de7f552
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Current"
+      - Name: Running
+        Id: g=320dff6bbb273e08f8d70906be59b7ea
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=dd47c53c7e39dc5a3c02a8647432158a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Running"
+      - Name: Speed
+        Id: g=7035bd46fbe408ee3c517157c7c59e5e
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=a20bffe193c4ad0612264ab717d9ec9e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Speed"
+      - Name: Start_PB
+        Id: g=b847d349256d5c60a15331ec5e024d4c
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=fb03a99e16fdda91f62932520dc47038
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Start_PB"
+      - Name: Stop_PB
+        Id: g=928b93bf1d1538c3cabbe14850fc4beb
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=82691d66cacea8782b2e9a356aa7552f
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Stop_PB"
+      - Name: Temperature
+        Id: g=e1ddb629a7ba8505d1270569bf0f85c8
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=b9162fa94d57cee972dc90128d5387dd
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Temperature"
+      - Name: Trip
+        Id: g=b3a07eed80024bf22d8d10a0d69b6e5b
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=53d4dfcc1244f29628ae29ceec513b61
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Trip"
+      - Name: Voltage
+        Id: g=e495b17414618fbcc6eb74383b3fccd5
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=d0389470bd2cf51f6902d556540c8bbe
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[0].Voltage"
+    - Name: 1
+      Id: g=ab65d0639d2534861c835adfa7f495fc
+      Type: Motor_CTR
+      Children:
+      - Name: Current
+        Id: g=47635cb819fe800cb39463ef0d789c9c
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=219abc8692273d2ece4ba0fb514425b6
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Current"
+      - Name: Running
+        Id: g=b1eb7a3a9bb8598741878d65950c4328
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=0a8208033c9e0c6dc56c0b2cb846bb5f
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Running"
+      - Name: Speed
+        Id: g=f84debb4b71bc8ecd33d9fde69b34817
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=5aeba8bac382231f41b69f7b80f2319c
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Speed"
+      - Name: Start_PB
+        Id: g=00f65ab183bcc2f0b365b53876df6395
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=c67aa008b2cd770200926137be68d38e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Start_PB"
+      - Name: Stop_PB
+        Id: g=1fb5bdb7fb90f41d49ec8eb1def4d3fd
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=3ef201517c6f15c9b2a1bd8b82c1fad0
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Stop_PB"
+      - Name: Temperature
+        Id: g=e010dc0213f240efe5e920d002a9fefc
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=5685b723c7bc42d8679f4f2b4b4f42d4
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Temperature"
+      - Name: Trip
+        Id: g=e9b9048ce79d07bc8d4ed107a43d0b8e
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=5f0798c79fbebf62ce6abc0b4ab32cd5
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Trip"
+      - Name: Voltage
+        Id: g=34865a8017a34ac98bb717c3d413944c
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=103f027106bb4065e6e9abf8964452e6
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[1].Voltage"
+    - Name: 2
+      Id: g=b5e2980cfd1a6ce0dd157ac24c476fba
+      Type: Motor_CTR
+      Children:
+      - Name: Current
+        Id: g=cc1e16fab76bfd4ac81b469c58cd0f46
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=0def7b6498b9a8ee267502a79bd81fbd
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Current"
+      - Name: Running
+        Id: g=dffe2b0cb3161e4522288e66ff171a2d
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=5bf96300dd1e77b16bda907b3642ccd9
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Running"
+      - Name: Speed
+        Id: g=66fe9d0399ec1a2c6903112f378fb42b
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=e48d0c6dcec42e069df713c852f51060
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Speed"
+      - Name: Start_PB
+        Id: g=e93ba18ffe2b8b10a55d82a707676378
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=0a2530b28f39b418ec9e44921e26d5c4
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Start_PB"
+      - Name: Stop_PB
+        Id: g=eb0c1497efbe50e96b7035558a6401b3
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=812ac869f1797648b3bfa12622fd015c
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Stop_PB"
+      - Name: Temperature
+        Id: g=6c69d59d5626c468af191614db5f4d86
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=c6bc2cb9dcc2dc2e6056052864be7f4b
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Temperature"
+      - Name: Trip
+        Id: g=da8a0ce31d4c3340338606d36b46419c
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=abcef4c44afa9abd0bad14f7601e5687
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Trip"
+      - Name: Voltage
+        Id: g=16e2f25027cf38543bbb953ed2e92776
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=ff9e8762321b4705f72536057a4e3889
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[2].Voltage"
+    - Name: 3
+      Id: g=b2f35e9ac378b7f70fcde48900297ef4
+      Type: Motor_CTR
+      Children:
+      - Name: Current
+        Id: g=18e175867ded8b1597185ad5db003abb
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=7efc921ab687b0157cba9a269dd88df8
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Current"
+      - Name: Running
+        Id: g=1fd3ffa9bf33354b6b7174d1c8ea740e
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=c69bfc26b677386754a45a170c2b06e3
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Running"
+      - Name: Speed
+        Id: g=08d9e9f698b4ac0ee24b5a11e9aa0d20
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Id: g=35d8944922280f0489fafb862260e283
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Speed"
+      - Name: Start_PB
+        Id: g=000c06ee40ee8f747c107a1c471a8122
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=cecfffdc88fcc3b69fde38a427ac43cb
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Start_PB"
+      - Name: Stop_PB
+        Id: g=2183428c8f132edfc5164639a46025e4
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=a7783d558e550e255ea96c377241c7f7
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Stop_PB"
+      - Name: Temperature
+        Id: g=465bd5a235da0a494779362839a31d90
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=cf2cb26f74c5acf341cf423b58337944
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Temperature"
+      - Name: Trip
+        Id: g=297549e76021c6446cc9d8046ef8aa7f
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Id: g=19ea7303e71960475b6313b9745a256a
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Trip"
+      - Name: Voltage
+        Id: g=b689e8a115032ef2829b32316627b563
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Id: g=b195e7d17e466624a706c65c43926caa
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Motor[3].Voltage"
